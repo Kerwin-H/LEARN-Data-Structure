@@ -37,3 +37,4 @@ int findIdx(seqList* sl, SLDataType val);
 void destorySeqList(seqList* sl);
 //Ö¸¶¨É¾³ý
 void erase(seqList* sl, int pos);
+

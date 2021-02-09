@@ -207,6 +207,8 @@ int main(){
 
 	test();
 
+	printf("%d", sizeof(seqList));
+
 	system("pause");
 	return 0;
 }
