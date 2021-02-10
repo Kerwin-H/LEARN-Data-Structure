@@ -1,3 +1,4 @@
+#include<stdio.h>
 //int removeElement(int* nums, int numsSize, int val){
 //
 //	int* new = (int*)malloc(sizeof(int)*numsSize);
@@ -13,6 +14,9 @@
 //====1.数组内元素移除,并令时间复杂度最小
 int removeElement(int* nums, int numsSize, int val){
 	
+	if (nums == NULL || numsSize = 0)
+		return;
+
 	int idx = 0;
 	int i = 0;
 	for (i = 0; i <= numsSize; ++i){
